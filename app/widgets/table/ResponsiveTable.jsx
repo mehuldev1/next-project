@@ -8,6 +8,8 @@ const ResponsiveTable = ({ data = [1,1,1] }) => {
   console.log('d')
   console.log('development')
 
+  console.log('mehul-development')
+
   return (
     <div className="responsive-table">
       <div className="table-header">
