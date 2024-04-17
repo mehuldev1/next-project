@@ -4,10 +4,6 @@ import DynamicSkeleton from '../loader/ReactLoadingSkeleton';
 
 
 const ResponsiveTable = ({ data = [1,1,1] }) => {
-
-
-  console.log('q')
-
   return (
     <div className="responsive-table">
       <div className="table-header">
