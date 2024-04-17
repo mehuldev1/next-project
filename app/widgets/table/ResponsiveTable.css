@@ -1,0 +1,31 @@
+.responsive-table {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .table-header {
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+    min-width: 100px; /* Adjust as needed */
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .table-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .column {
+      min-width: 80px; /* Adjust as needed */
+    }
+  }
+  
