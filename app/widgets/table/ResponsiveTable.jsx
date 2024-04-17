@@ -8,6 +8,7 @@ const ResponsiveTable = ({ data = [1,1,1] }) => {
 
   console.log('q')
 
+  console.log('rtq')
   return (
     <div className="responsive-table">
       <div className="table-header">
