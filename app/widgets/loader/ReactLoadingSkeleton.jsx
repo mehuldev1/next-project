@@ -2,6 +2,7 @@ import React from 'react';
 import Skeleton from 'react-loading-skeleton';
 
 const DynamicSkeleton = ({ shape, count, animated }) => {
+  console.log('sd')
   const renderSkeletons = () => {
     const skeletons = [];
     for (let i = 0; i < count; i++) {
